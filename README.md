@@ -29,3 +29,6 @@ transform.position : 위치 받아오기
 물체 이동
 transform.position = new Vector3(); ->if문 이용
 
+변수 선언후에 초기화 할것 -> ex) Rigidbody myRigidbody = Getcomponent<Rigidbody>();
+  
+  
