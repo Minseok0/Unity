@@ -26,3 +26,6 @@ Debug.log : 콘솔창에 로그 남기기
 
 transform.position : 위치 받아오기
 
+물체 이동
+transform.position = new Vector3(); ->if문 이용
+
