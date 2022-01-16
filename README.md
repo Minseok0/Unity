@@ -1,4 +1,4 @@
-# Unity-C-
+# Unity C#
 Unity로 배우는 C#(Programmers)에서 배운 내용 정리
 
 Unity는 Code editor 포함하지 않아서 Visual Studio를 함께 사용한다.
