@@ -28,7 +28,18 @@ transform.position : 위치 받아오기
 
 물체 이동
 transform.position = new Vector3(); ->if문 이용
+AddForce : 힘 가하기
 
 변수 선언후에 초기화 할것 -> ex) Rigidbody myRigidbody = Getcomponent < Rigidbody > ();
+
+Input.GetAxis("Horizontal") -> 왼쪽 누르면 -1 / 오른쪽 누르면 +1
+
+Input.GetKeyDown(KeyCode.Space) -> Space 누르면 반응
+Input.GetKeyUp(KeyCode.Space) -> Space 떼면 반응
+Input.GetKey(KeyCode.Space) -> Space 누르고 있는 동안 반응
+
+GetMouseButton(0) : 마우스 왼쪽 버튼
+
+GameManager : 만들어야 효율적
   
   
