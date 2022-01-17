@@ -22,7 +22,7 @@ Object에 Script 추가 해야만 실행됨
 
 Start영역 : 시작할때 한번 실행
 Update영역 : 매 프레임마다 실행
-Debug.log : 콘솔창에 로그 남기기
+Debug.Log : 콘솔창에 로그 남기기
 
 transform.position : 위치 받아오기
 
@@ -41,5 +41,21 @@ Input.GetKey(KeyCode.Space) -> Space 누르고 있는 동안 반응
 GetMouseButton(0) : 마우스 왼쪽 버튼
 
 GameManager : 만들어야 효율적
+
+public 변수는 Inspector에서 변경한 값이 우선 -> start에서 다시 초기화 하는것을 추천
+
+UI -> text : 플레이 화면에서 글씨 나옴
+
+class : 설계도 / component : 설계도를 기반으로 한 실제 물체
+
+Prefab : 나중에 쓸 수 있도록 저장한 object(파란글씨) -> GameObject 드래그해서 아래로
+
+상속 : 코드상에서 중복되는 내용이 있을경우 부모 자식 클래스로 묶기
+
+부모 클래스 : base.~
+
+
+
+
   
   
